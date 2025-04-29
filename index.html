@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      src="pp1.jpg"
+      alt=""
+      onclick="pp1()"
+      id="pp1"
+      style="width: 500px; height: 500px"
+    />
+    <img
+      onclick="pp2()"
+      src="pp2.jpg"
+      alt=""
+      id="pp2"
+      style="width: 500px; height: 500px"
+    />
+    <div
+      id="box"
+      style="width: 500px; height: 500px; background-color: red"
+    ></div>
+  </body>
+  <script>
+    function pp1() {
+      document.getElementById("box").style.backgroundImage = "url(pp1.jpg)";
+      document.getElementById("box").style.backgroundSize = "cover";
+      document.getElementById("box").style.backgroundPosition = "center";
+    }
+    function pp2() {
+      document.getElementById("box").style.backgroundImage = "url(pp2.jpg)";
+      document.getElementById("box").style.backgroundSize = "cover";
+      document.getElementById("box").style.backgroundPosition = "center";
+    }
+  </script>
+</html>

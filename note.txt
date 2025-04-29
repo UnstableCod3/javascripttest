@@ -1,0 +1,4 @@
+Javascript Tips
+1. Concept - idea
+2. Process or flow
+3. Coding
